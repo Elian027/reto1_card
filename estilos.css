@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    min-height: 35rem;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+
+.todo {
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.texto {
+    padding: 6%;
+    text-align: center;
+}
+
+.ord {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.let {
+    color: rgb(160, 160, 160);
+    margin-bottom: 25px;
+}
+
+.conjunto {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conjunto-izq {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.conjunto-izq div {
+    margin-left: 20px;
+}
+
+.conjunto-izq div h5 {
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.conjunto-izq div p {
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    
+}
+
+.conjunto a {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+a.botonP {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 12px;
+    padding: 4%;
+    margin: 20px;
+}
+
+a.botonC {
+    color: hsl(224, 23%, 55%);
+}
